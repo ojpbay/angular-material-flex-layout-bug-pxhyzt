@@ -12,7 +12,9 @@ import { MatDialogRef } from '@angular/material';
         <div>3</div>
       </div>
 
-      
+      <div style="height: 200px; background: red;">
+        <p>Some large content</p>
+      </div>
   </mat-dialog-content>
 
   <mat-dialog-actions>
@@ -23,5 +25,5 @@ import { MatDialogRef } from '@angular/material';
   `,
 })
 export class RandomDialog {
-  constructor(public dialogRef: MatDialogRef<RandomDialog>) { }
+  constructor(public dialogRef: MatDialogRef<RandomDialog>) {}
 }
